@@ -1,0 +1,865 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<msg>
+   <head>
+      <Client>Charter</Client>
+      <Region>QAKA</Region>
+      <Source>E20ORDERMGR</Source>
+      <Destination>CCS01</Destination>
+      <Origin>L1Y2A-SRV ORD/JOB/ITEM CHGS</Origin>
+      <Version>2.22</Version>
+      <RoundTrip>MDU6MDAwMDAxNTM6MjAxMjA0MDM6MTA1NjM4MDA6ODM1MTEwMDA6TDFZMjpOQQ==</RoundTrip>
+      <TriggerType>LocationAdded</TriggerType>
+      <UserId>63R 0AP5</UserId>
+   </head>
+   <body>
+      <OrderDetailUpdated>
+         <Customer>
+            <CustomerId>1101512697371</CustomerId>
+            <Name>
+               <Title />
+               <First>CREATEACCOUNT</First>
+               <Last>NRTBSIT</Last>
+            </Name>
+            <Phone>
+               <Home>5555555555</Home>
+               <Business />
+            </Phone>
+            <Email>
+               <Address />
+            </Email>
+         </Customer>
+         <Location>
+            <LocationId>29301538200139</LocationId>
+            <Type>AA</Type>
+            <TypeDescription>R: Single Fam</TypeDescription>
+            <Address>
+               <Line1>408 KENYON CT</Line1>
+               <Line2 />
+               <City>SPARTANBURG</City>
+               <State>SC</State>
+               <PostalCode>293015382</PostalCode>
+               <ForceIndicator>0</ForceIndicator>
+               <Country>USA</Country>
+            </Address>
+            <Geographical>
+               <TechnicianArea>09</TechnicianArea>
+               <TechnicianAreaDescription>09 Spartanburg</TechnicianAreaDescription>
+            </Geographical>
+            <LineOfBusiness>
+               <Type>T</Type>
+               <ServiceStatus>S</ServiceStatus>
+            </LineOfBusiness>
+            <LineOfBusiness>
+               <Type>I</Type>
+               <ServiceStatus>S</ServiceStatus>
+            </LineOfBusiness>
+            <LineOfBusiness>
+               <Type>C</Type>
+               <ServiceStatus>S</ServiceStatus>
+            </LineOfBusiness>
+            <Drop>
+               <Tag Index="1">
+                  <Identifier>G00196648</Identifier>
+               </Tag>
+               <Tag Index="2">
+                  <Identifier />
+               </Tag>
+               <Tag Index="3">
+                  <Identifier>P00088116</Identifier>
+               </Tag>
+            </Drop>
+         </Location>
+         <Order>
+            <OrderId>1200006828921018</OrderId>
+            <BusinessUnit>83511000</BusinessUnit>
+            <Class>S</Class>
+            <Status>C</Status>
+            <CustomerSequence>00006</CustomerSequence>
+            <Requestor />
+            <Method />
+            <Reason Index="1">
+               <Code>DY</Code>
+               <Description>Move Within System-No Transfer</Description>
+            </Reason>
+            <Reason Index="2">
+               <Code />
+            </Reason>
+            <Reason Index="3">
+               <Code />
+            </Reason>
+            <Reason Index="4">
+               <Code />
+            </Reason>
+            <SalesRepresentative>00000</SalesRepresentative>
+            <Campaign />
+            <MarketingSource />
+            <MarketingType />
+            <DueDate>4444-12-31</DueDate>
+            <CompletionDate>2012-04-03</CompletionDate>
+            <CompletionTime>12:56:37</CompletionTime>
+            <Resolution Index="1">
+               <Code />
+            </Resolution>
+            <Resolution Index="2">
+               <Code />
+            </Resolution>
+            <Resolution Index="3">
+               <Code />
+            </Resolution>
+            <Resolution Index="4">
+               <Code />
+            </Resolution>
+            <Resolution Index="5">
+               <Code />
+            </Resolution>
+            <Resolution Index="6">
+               <Code />
+            </Resolution>
+            <RepeatTroubleCall />
+            <Billing>
+               <CycleDay>00</CycleDay>
+               <BeginDate>2012-04-03</BeginDate>
+               <EndDate>2012-04-03</EndDate>
+            </Billing>
+            <Monetary>
+               <Deposit>0.00</Deposit>
+               <PrePay>0.00</PrePay>
+               <AccountId>0000000000000000</AccountId>
+               <Batch />
+               <Source />
+               <SourceIdentifier />
+            </Monetary>
+            <RecurringCharge>0.00</RecurringCharge>
+            <LineOfBusiness>
+               <Type>C</Type>
+               <Action />
+            </LineOfBusiness>
+            <LineOfBusiness>
+               <Type>T</Type>
+               <Action />
+            </LineOfBusiness>
+            <LineOfBusiness>
+               <Type>I</Type>
+               <Action>X</Action>
+            </LineOfBusiness>
+            <LineOfBusiness>
+               <Type>Y</Type>
+               <Action />
+            </LineOfBusiness>
+            <LineOfBusiness>
+               <Type>Z</Type>
+               <Action />
+            </LineOfBusiness>
+            <Protected>N</Protected>
+            <FootprintRelocationIndicator />
+            <CommentCode Index="1">
+               <Code />
+            </CommentCode>
+            <CommentCode Index="2">
+               <Code />
+            </CommentCode>
+            <CommentCode Index="3">
+               <Code />
+            </CommentCode>
+            <CustomField Index="1">
+               <Name>TECH ID #</Name>
+               <Value />
+            </CustomField>
+            <CustomField Index="2">
+               <Name>DIALED NUMBER</Name>
+               <Value />
+            </CustomField>
+            <CustomField Index="3">
+               <Name>SAVE REASON</Name>
+               <Value />
+            </CustomField>
+            <CustomField Index="4">
+               <Name>AFFL SALES ID</Name>
+               <Value />
+            </CustomField>
+            <CustomField Index="5">
+               <Name />
+               <Value />
+            </CustomField>
+            <CustomField Index="6">
+               <Name />
+               <Value />
+            </CustomField>
+            <CustomField Index="7">
+               <Name />
+               <Value />
+            </CustomField>
+            <CustomField Index="8">
+               <Name />
+               <Value />
+            </CustomField>
+            <CustomField Index="9">
+               <Name />
+               <Value />
+            </CustomField>
+            <CustomField Index="10">
+               <Name />
+               <Value />
+            </CustomField>
+            <CustomField Index="11">
+               <Name />
+               <Value />
+            </CustomField>
+            <CustomField Index="12">
+               <Name />
+               <Value />
+            </CustomField>
+            <Audit>
+               <Creation>
+                  <Date>2012-04-03</Date>
+                  <Time>12:51:27</Time>
+                  <Operator>63R</Operator>
+                  <Terminal>0AP5</Terminal>
+               </Creation>
+               <LastUpdate>
+                  <Date>2012-04-03</Date>
+                  <Time>12:56:37</Time>
+                  <Operator>ZZO</Operator>
+               </LastUpdate>
+            </Audit>
+         </Order>
+         <AccountList>
+            <Count>1</Count>
+            <Account>
+               <AccountId>8783300011398641</AccountId>
+               <Classification />
+               <ConnectStatus>C</ConnectStatus>
+               <Name>
+                  <Salutation>U</Salutation>
+                  <First>CREATEACCOUNT</First>
+                  <Last>NRTBSIT</Last>
+               </Name>
+               <Phone>
+                  <Home>5555555555</Home>
+                  <Business>0000000000</Business>
+               </Phone>
+               <ResponsibleParty>
+                  <Name />
+               </ResponsibleParty>
+               <LineOfBusiness>
+                  <Type>C</Type>
+                  <Status>N</Status>
+               </LineOfBusiness>
+               <LineOfBusiness>
+                  <Type>T</Type>
+                  <Status>N</Status>
+               </LineOfBusiness>
+               <LineOfBusiness>
+                  <Type>I</Type>
+                  <Status>D</Status>
+               </LineOfBusiness>
+               <LineOfBusiness>
+                  <Type>Y</Type>
+                  <Status>N</Status>
+               </LineOfBusiness>
+               <LineOfBusiness>
+                  <Type>Z</Type>
+                  <Status>N</Status>
+               </LineOfBusiness>
+               <Balance>
+                  <Current>49.99</Current>
+                  <Deposit>0.00</Deposit>
+               </Balance>
+               <PPVCreditLimit>275.00</PPVCreditLimit>
+               <Payment>
+                  <Pending>0.00</Pending>
+               </Payment>
+               <BillTo>
+                  <Name>
+                     <Salutation>U</Salutation>
+                     <First>CREATEACCOUNT</First>
+                     <Last>NRTBSIT</Last>
+                  </Name>
+                  <Address>
+                     <Line1>408 KENYON CT</Line1>
+                     <Line2 />
+                     <City>SPARTANBURG</City>
+                     <State>SC</State>
+                     <PostalCode>293015382</PostalCode>
+                     <ForceIndicator>0</ForceIndicator>
+                     <Country>USA</Country>
+                  </Address>
+                  <ResponsibleParty>
+                     <Name />
+                  </ResponsibleParty>
+               </BillTo>
+               <Billing>
+                  <CycleDay>23</CycleDay>
+                  <Frequency>01</Frequency>
+                  <TaxGroup>99</TaxGroup>
+                  <Discount />
+               </Billing>
+               <Delinquency>
+                  <Status>C</Status>
+               </Delinquency>
+               <MonetaryStatus />
+               <Identifier />
+               <Miscellaneous />
+               <AutoPackageIndicator>P</AutoPackageIndicator>
+               <Registration />
+               <Credit>
+                  <Score />
+                  <ScoreDate>0001-01-01</ScoreDate>
+                  <Code />
+               </Credit>
+               <PrivacyInformation>
+                  <Disclose />
+                  <DisclosureParty />
+                  <ContactMethod />
+               </PrivacyInformation>
+            </Account>
+         </AccountList>
+         <JobList>
+            <Count>1</Count>
+            <Job>
+               <JobId>12000068289210180001</JobId>
+               <Sequence>0001</Sequence>
+               <JobNumber>507348</JobNumber>
+               <Type>D1</Type>
+               <TypeDescription>Cv/HSD Lob Disc</TypeDescription>
+               <Status>C</Status>
+               <Class>S</Class>
+               <Schedule>
+                  <Date>2012-04-03</Date>
+                  <Category>VS</Category>
+                  <TimeCode>O</TimeCode>
+                  <TimeCodeDescription>All Day</TimeCodeDescription>
+                  <TotalUnits>006</TotalUnits>
+                  <Group />
+                  <RescheduleFromDate>0001-01-01</RescheduleFromDate>
+                  <RescheduleReason />
+                  <CustomerRequest>N</CustomerRequest>
+               </Schedule>
+               <Technician>0000</Technician>
+               <TechnicianType />
+               <TechnicianBeginTime>00:00:00</TechnicianBeginTime>
+               <TechnicianEndTime>12:56:00</TechnicianEndTime>
+               <CallAheadNumber>0000000000</CallAheadNumber>
+               <CashOnDelivery>0.00</CashOnDelivery>
+               <Dispatch>
+                  <Status>C</Status>
+                  <StatusChangeDate>2012-04-03</StatusChangeDate>
+                  <StatusChangeTime>12:56:37</StatusChangeTime>
+                  <StatusChangeOperator />
+                  <RouteCardPrinted>N</RouteCardPrinted>
+                  <RouteCardPrintSequence>000</RouteCardPrintSequence>
+                  <RouteCardPrintDate>0001-01-01</RouteCardPrintDate>
+                  <RouteCardPrintTime>00:00:00</RouteCardPrintTime>
+                  <JobPrinted>N</JobPrinted>
+                  <Comment />
+               </Dispatch>
+               <BeginDate>2012-04-03</BeginDate>
+               <BeginTime>12:51:00</BeginTime>
+               <CompletionDate>2012-04-03</CompletionDate>
+               <CompletionTime>12:56:37</CompletionTime>
+               <Resolution Index="1">
+                  <Code />
+               </Resolution>
+               <Resolution Index="2">
+                  <Code />
+               </Resolution>
+               <Resolution Index="3">
+                  <Code />
+               </Resolution>
+               <Resolution Index="4">
+                  <Code />
+               </Resolution>
+               <Resolution Index="5">
+                  <Code />
+               </Resolution>
+               <Resolution Index="6">
+                  <Code />
+               </Resolution>
+               <AlternateAddress>
+                  <Name>
+                     <First />
+                     <Last />
+                  </Name>
+                  <Address>
+                     <Line1 />
+                     <Line2 />
+                     <City />
+                     <State />
+                     <PostalCode />
+                     <CanadianForceIndicator />
+                  </Address>
+               </AlternateAddress>
+               <Billing>
+                  <BeginDate>0001-01-01</BeginDate>
+                  <EndDate>0001-01-01</EndDate>
+               </Billing>
+               <ControlMethod>A</ControlMethod>
+               <AutoCreateSequence>6213</AutoCreateSequence>
+               <AutoCreateItemCount>0005</AutoCreateItemCount>
+               <Protected>N</Protected>
+               <Comment Index="1">
+                  <Text>XXXX</Text>
+               </Comment>
+               <CustomField Index="1">
+                  <Name>COD COLLECTED</Name>
+                  <Value />
+               </CustomField>
+               <CustomField Index="2">
+                  <Name>BURY DROP</Name>
+                  <Value />
+               </CustomField>
+               <CustomField Index="3">
+                  <Name>TCTRKROLL NEED</Name>
+                  <Value />
+               </CustomField>
+               <CustomField Index="4">
+                  <Name>W/O ACCURATE</Name>
+                  <Value />
+               </CustomField>
+               <CustomField Index="5">
+                  <Name>POLE ATTACH</Name>
+                  <Value />
+               </CustomField>
+               <CustomField Index="6">
+                  <Name>TIVO</Name>
+                  <Value />
+               </CustomField>
+               <CustomField Index="7">
+                  <Name />
+                  <Value />
+               </CustomField>
+               <CustomField Index="8">
+                  <Name />
+                  <Value />
+               </CustomField>
+               <CustomField Index="9">
+                  <Name />
+                  <Value />
+               </CustomField>
+               <CustomField Index="10">
+                  <Name />
+                  <Value />
+               </CustomField>
+               <CustomField Index="11">
+                  <Name />
+                  <Value />
+               </CustomField>
+               <CustomField Index="12">
+                  <Name />
+                  <Value />
+               </CustomField>
+               <Audit>
+                  <Creation>
+                     <Date>2012-04-03</Date>
+                     <Time>12:51:27</Time>
+                     <Operator>63R</Operator>
+                     <Terminal>0AP5</Terminal>
+                  </Creation>
+                  <LastUpdate>
+                     <Date>2012-04-03</Date>
+                     <Time>12:56:37</Time>
+                     <Operator>63R</Operator>
+                     <Terminal>0AP5</Terminal>
+                  </LastUpdate>
+               </Audit>
+            </Job>
+         </JobList>
+         <Before>
+            <Order>
+               <OrderId>1200006828921018</OrderId>
+               <BusinessUnit>83511000</BusinessUnit>
+               <Class>S</Class>
+               <Status>O</Status>
+               <CustomerSequence>00006</CustomerSequence>
+               <Requestor />
+               <Method />
+               <Reason Index="1">
+                  <Code>DY</Code>
+                  <Description>Move Within System-No Transfer</Description>
+               </Reason>
+               <Reason Index="2">
+                  <Code />
+               </Reason>
+               <Reason Index="3">
+                  <Code />
+               </Reason>
+               <Reason Index="4">
+                  <Code />
+               </Reason>
+               <SalesRepresentative>00000</SalesRepresentative>
+               <Campaign />
+               <MarketingSource />
+               <MarketingType />
+               <DueDate>4444-12-31</DueDate>
+               <CompletionDate>0001-01-01</CompletionDate>
+               <CompletionTime>00:00:00</CompletionTime>
+               <Resolution Index="1">
+                  <Code />
+               </Resolution>
+               <Resolution Index="2">
+                  <Code />
+               </Resolution>
+               <Resolution Index="3">
+                  <Code />
+               </Resolution>
+               <Resolution Index="4">
+                  <Code />
+               </Resolution>
+               <Resolution Index="5">
+                  <Code />
+               </Resolution>
+               <Resolution Index="6">
+                  <Code />
+               </Resolution>
+               <RepeatTroubleCall />
+               <Billing>
+                  <CycleDay>00</CycleDay>
+                  <BeginDate>2012-04-03</BeginDate>
+                  <EndDate>2012-04-03</EndDate>
+               </Billing>
+               <Monetary>
+                  <Deposit>0.00</Deposit>
+                  <PrePay>0.00</PrePay>
+                  <AccountId>0000000000000000</AccountId>
+                  <Batch />
+                  <Source />
+                  <SourceIdentifier />
+               </Monetary>
+               <RecurringCharge>0.00</RecurringCharge>
+               <LineOfBusiness>
+                  <Type>C</Type>
+                  <Action />
+               </LineOfBusiness>
+               <LineOfBusiness>
+                  <Type>T</Type>
+                  <Action />
+               </LineOfBusiness>
+               <LineOfBusiness>
+                  <Type>I</Type>
+                  <Action>X</Action>
+               </LineOfBusiness>
+               <LineOfBusiness>
+                  <Type>Y</Type>
+                  <Action />
+               </LineOfBusiness>
+               <LineOfBusiness>
+                  <Type>Z</Type>
+                  <Action />
+               </LineOfBusiness>
+               <Protected>N</Protected>
+               <FootprintRelocationIndicator />
+               <CommentCode Index="1">
+                  <Code />
+               </CommentCode>
+               <CommentCode Index="2">
+                  <Code />
+               </CommentCode>
+               <CommentCode Index="3">
+                  <Code />
+               </CommentCode>
+               <CustomField Index="1">
+                  <Name>TECH ID #</Name>
+                  <Value />
+               </CustomField>
+               <CustomField Index="2">
+                  <Name>DIALED NUMBER</Name>
+                  <Value />
+               </CustomField>
+               <CustomField Index="3">
+                  <Name>SAVE REASON</Name>
+                  <Value />
+               </CustomField>
+               <CustomField Index="4">
+                  <Name>AFFL SALES ID</Name>
+                  <Value />
+               </CustomField>
+               <CustomField Index="5">
+                  <Name />
+                  <Value />
+               </CustomField>
+               <CustomField Index="6">
+                  <Name />
+                  <Value />
+               </CustomField>
+               <CustomField Index="7">
+                  <Name />
+                  <Value />
+               </CustomField>
+               <CustomField Index="8">
+                  <Name />
+                  <Value />
+               </CustomField>
+               <CustomField Index="9">
+                  <Name />
+                  <Value />
+               </CustomField>
+               <CustomField Index="10">
+                  <Name />
+                  <Value />
+               </CustomField>
+               <CustomField Index="11">
+                  <Name />
+                  <Value />
+               </CustomField>
+               <CustomField Index="12">
+                  <Name />
+                  <Value />
+               </CustomField>
+               <Audit>
+                  <Creation>
+                     <Date>2012-04-03</Date>
+                     <Time>12:51:27</Time>
+                     <Operator>63R</Operator>
+                     <Terminal>0AP5</Terminal>
+                  </Creation>
+                  <LastUpdate>
+                     <Date>2012-04-03</Date>
+                     <Time>12:51:27</Time>
+                     <Operator>63R</Operator>
+                     <Terminal>0AP5</Terminal>
+                  </LastUpdate>
+               </Audit>
+            </Order>
+            <AccountList>
+               <Count>1</Count>
+               <Account>
+                  <AccountId>8351100200834741</AccountId>
+                  <Classification />
+                  <ConnectStatus />
+                  <Name>
+                     <Salutation>U</Salutation>
+                     <First>CREATEACCOUNT</First>
+                     <Last>NRTBSIT</Last>
+                  </Name>
+                  <Phone>
+                     <Home>5555555555</Home>
+                     <Business>0000000000</Business>
+                  </Phone>
+                  <ResponsibleParty>
+                     <Name />
+                  </ResponsibleParty>
+                  <LineOfBusiness>
+                     <Type>C</Type>
+                     <Status>N</Status>
+                  </LineOfBusiness>
+                  <LineOfBusiness>
+                     <Type>T</Type>
+                     <Status>N</Status>
+                  </LineOfBusiness>
+                  <LineOfBusiness>
+                     <Type>I</Type>
+                     <Status>2</Status>
+                  </LineOfBusiness>
+                  <LineOfBusiness>
+                     <Type>Y</Type>
+                     <Status>N</Status>
+                  </LineOfBusiness>
+                  <LineOfBusiness>
+                     <Type>Z</Type>
+                     <Status>N</Status>
+                  </LineOfBusiness>
+                  <Balance>
+                     <Current>49.99</Current>
+                     <Deposit>0.00</Deposit>
+                  </Balance>
+                  <PPVCreditLimit>275.00</PPVCreditLimit>
+                  <Payment>
+                     <Pending>0.00</Pending>
+                  </Payment>
+                  <BillTo>
+                     <Name>
+                        <Salutation>U</Salutation>
+                        <First>CREATEACCOUNT</First>
+                        <Last>NRTBSIT</Last>
+                     </Name>
+                     <Address>
+                        <Line1>408 KENYON CT</Line1>
+                        <Line2 />
+                        <City>SPARTANBURG</City>
+                        <State>SC</State>
+                        <PostalCode>293015382</PostalCode>
+                        <ForceIndicator>0</ForceIndicator>
+                        <Country>USA</Country>
+                     </Address>
+                     <ResponsibleParty>
+                        <Name />
+                     </ResponsibleParty>
+                  </BillTo>
+                  <Billing>
+                     <CycleDay>23</CycleDay>
+                     <Frequency>01</Frequency>
+                     <TaxGroup>99</TaxGroup>
+                     <Discount />
+                  </Billing>
+                  <MonetaryStatus />
+                  <Identifier />
+                  <Miscellaneous />
+                  <AutoPackageIndicator>P</AutoPackageIndicator>
+                  <Registration />
+                  <Credit>
+                     <Score />
+                     <ScoreDate>0001-01-01</ScoreDate>
+                     <Code />
+                  </Credit>
+                  <PrivacyInformation>
+                     <Disclose />
+                     <DisclosureParty />
+                     <ContactMethod />
+                     <Audit>
+                        <LastUpdate>
+                           <Date>0001-01-01</Date>
+                        </LastUpdate>
+                     </Audit>
+                  </PrivacyInformation>
+               </Account>
+            </AccountList>
+            <JobList>
+               <Count>1</Count>
+               <Job>
+                  <JobId>12000068289210180001</JobId>
+                  <Sequence>0001</Sequence>
+                  <JobNumber>507348</JobNumber>
+                  <Type>D1</Type>
+                  <TypeDescription>Cv/HSD Lob Disc</TypeDescription>
+                  <Status>O</Status>
+                  <Class>S</Class>
+                  <Schedule>
+                     <Date>2012-04-03</Date>
+                     <Category>VS</Category>
+                     <TimeCode>O</TimeCode>
+                     <TimeCodeDescription>All Day</TimeCodeDescription>
+                     <TotalUnits>006</TotalUnits>
+                     <Group />
+                     <RescheduleFromDate>0001-01-01</RescheduleFromDate>
+                     <RescheduleReason />
+                     <CustomerRequest>N</CustomerRequest>
+                  </Schedule>
+                  <Technician>0000</Technician>
+                  <TechnicianType />
+                  <TechnicianBeginTime>00:00:00</TechnicianBeginTime>
+                  <TechnicianEndTime>00:00:00</TechnicianEndTime>
+                  <CallAheadNumber>0000000000</CallAheadNumber>
+                  <CashOnDelivery>0.00</CashOnDelivery>
+                  <Dispatch>
+                     <Status>O</Status>
+                     <StatusChangeDate>2012-04-03</StatusChangeDate>
+                     <StatusChangeTime>12:51:18</StatusChangeTime>
+                     <StatusChangeOperator />
+                     <RouteCardPrinted>N</RouteCardPrinted>
+                     <RouteCardPrintSequence>000</RouteCardPrintSequence>
+                     <RouteCardPrintDate>0001-01-01</RouteCardPrintDate>
+                     <RouteCardPrintTime>00:00:00</RouteCardPrintTime>
+                     <JobPrinted>N</JobPrinted>
+                     <Comment />
+                  </Dispatch>
+                  <Resolution Index="1">
+                     <Code />
+                  </Resolution>
+                  <Resolution Index="2">
+                     <Code />
+                  </Resolution>
+                  <Resolution Index="3">
+                     <Code />
+                  </Resolution>
+                  <Resolution Index="4">
+                     <Code />
+                  </Resolution>
+                  <Resolution Index="5">
+                     <Code />
+                  </Resolution>
+                  <Resolution Index="6">
+                     <Code />
+                  </Resolution>
+                  <AlternateAddress>
+                     <Name>
+                        <First />
+                        <Last />
+                     </Name>
+                     <Address>
+                        <Line1 />
+                        <Line2 />
+                        <City />
+                        <State />
+                        <PostalCode />
+                        <CanadianForceIndicator />
+                     </Address>
+                  </AlternateAddress>
+                  <Billing>
+                     <BeginDate>0001-01-01</BeginDate>
+                     <EndDate>0001-01-01</EndDate>
+                  </Billing>
+                  <ControlMethod>A</ControlMethod>
+                  <AutoCreateSequence>6213</AutoCreateSequence>
+                  <AutoCreateItemCount>0005</AutoCreateItemCount>
+                  <Protected>N</Protected>
+                  <Comment Index="1">
+                     <Text>XXXX</Text>
+                  </Comment>
+                  <CustomField Index="1">
+                     <Name>COD COLLECTED</Name>
+                     <Value />
+                  </CustomField>
+                  <CustomField Index="2">
+                     <Name>BURY DROP</Name>
+                     <Value />
+                  </CustomField>
+                  <CustomField Index="3">
+                     <Name>TCTRKROLL NEED</Name>
+                     <Value />
+                  </CustomField>
+                  <CustomField Index="4">
+                     <Name>W/O ACCURATE</Name>
+                     <Value />
+                  </CustomField>
+                  <CustomField Index="5">
+                     <Name>POLE ATTACH</Name>
+                     <Value />
+                  </CustomField>
+                  <CustomField Index="6">
+                     <Name>TIVO</Name>
+                     <Value />
+                  </CustomField>
+                  <CustomField Index="7">
+                     <Name />
+                     <Value />
+                  </CustomField>
+                  <CustomField Index="8">
+                     <Name />
+                     <Value />
+                  </CustomField>
+                  <CustomField Index="9">
+                     <Name />
+                     <Value />
+                  </CustomField>
+                  <CustomField Index="10">
+                     <Name />
+                     <Value />
+                  </CustomField>
+                  <CustomField Index="11">
+                     <Name />
+                     <Value />
+                  </CustomField>
+                  <CustomField Index="12">
+                     <Name />
+                     <Value />
+                  </CustomField>
+                  <Audit>
+                     <Creation>
+                        <Date>2012-04-03</Date>
+                        <Time>12:51:27</Time>
+                        <Operator>63R</Operator>
+                        <Terminal>0AP5</Terminal>
+                     </Creation>
+                     <LastUpdate>
+                        <Date>2012-04-03</Date>
+                        <Time>12:51:27</Time>
+                        <Operator>63R</Operator>
+                        <Terminal>0AP5</Terminal>
+                     </LastUpdate>
+                  </Audit>
+               </Job>
+            </JobList>
+         </Before>
+      </OrderDetailUpdated>
+   </body>
+</msg>

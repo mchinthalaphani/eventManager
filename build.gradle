@@ -1,0 +1,58 @@
+buildscript {
+	repositories {
+		mavenLocal()
+		mavenCentral()
+	}
+            
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.2.1.RELEASE")
+        
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'spring-boot'
+
+sourceCompatibility = 1.8
+group = 'com.charter.kafka'
+version = '0.0.1'
+
+jar {
+    baseName = 'charterkafkaproducer'
+    version =  '0.0.1'
+}
+
+repositories {
+	mavenLocal()
+	mavenCentral()
+	maven { url "http://repo.spring.io/libs-release" }
+}
+
+allprojects{
+dependencies {
+ 	compile group: 'commons-collections', name: 'commons-collections', version: '3.2'
+    compile('org.apache.kafka:kafka_2.11:0.8.2.1'){
+		exclude group: 'org.slf4j'
+	}
+  	compile('com.google.guava:guava:19.0')
+    compile("org.springframework.boot:spring-boot-starter-web:1.2.1.RELEASE")
+  	compile("org.springframework.boot:spring-boot-gradle-plugin:1.2.1.RELEASE")
+    compile('org.hdrhistogram:HdrHistogram:2.1.8')
+    compile("com.sun.jersey.contribs:jersey-apache-client:1.10")
+    compile('org.apache.avro:avro-compiler:1.7.1')
+    compile group: 'org.apache.avro', name: 'avro', version: '1.7.7'
+   // compile  group: 'com.charter.charterenimodel', name: 'charterenimodel', version: '0.0.1-SNAPSHOT'
+    compile files('src/main/resources/lib/charterenimodel-0.0.1-SNAPSHOT.jar')
+       compile group: 'com.charter.solosync.db', name: 'SoloSyncDBConnector', version: '0.0.8-SNAPSHOT'
+   // compile group: 'org.springframework.boot', name: 'spring-boot-starter-test', version: '1.4.2.RELEASE'
+}
+}
+
+uploadArchives {
+    repositories {
+       flatDir {
+           dirs 'repos'
+       }
+    }
+}

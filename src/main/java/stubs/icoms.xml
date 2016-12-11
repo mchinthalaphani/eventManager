@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<ns2:HouseUpdate xmlns="http://www.twcable.com/mda/common/types/v1x0" xmlns:ns2="http://www.twcable.com/mda/houseupdate/types/v1x0">
+    <MessageId>1198896570-2046413359</MessageId>
+    <BillingSystem>ICOMS8</BillingSystem>
+    <SOADivisionId>CAK.001</SOADivisionId>
+    <TransactionTimestamp>2016-11-02T02:51:00.000</TransactionTimestamp>
+    <LocationIdentifier>2572991</LocationIdentifier>
+    <IBSOrganization1>001</IBSOrganization1>
+    <IBSOrganization2>10</IBSOrganization2>
+    <IBSOrganization3>34</IBSOrganization3>
+    <IBSOrganization4>322</IBSOrganization4>
+    <StandardOrganizationKey>2997</StandardOrganizationKey>
+    <RateCenter>MADISON</RateCenter>
+    <ServiceAddress1>2376 MCMACKIN RD</ServiceAddress1>
+    <ServiceCity>MADISON</ServiceCity>
+    <ServiceState>OH</ServiceState>
+    <ServiceZip>44057</ServiceZip>
+    <ServiceZip4>2355</ServiceZip4>
+    <Extension>
+        <ns3:Headend xmlns:ns3="http://www.twcable.com/mda/extension/types/v1x0">KK</ns3:Headend>
+        <ns3:Node xmlns:ns3="http://www.twcable.com/mda/extension/types/v1x0">MA128</ns3:Node>
+        <ns3:Hub xmlns:ns3="http://www.twcable.com/mda/extension/types/v1x0">GE</ns3:Hub>
+        <ns3:Pole xmlns:ns3="http://www.twcable.com/mda/extension/types/v1x0">*</ns3:Pole>
+        <ns3:Tag xmlns:ns3="http://www.twcable.com/mda/extension/types/v1x0">COMC</ns3:Tag>
+        <ns3:Latitude xmlns:ns3="http://www.twcable.com/mda/extension/types/v1x0">41.808947</ns3:Latitude>
+        <ns3:Longitude xmlns:ns3="http://www.twcable.com/mda/extension/types/v1x0">-81.09469</ns3:Longitude>
+    </Extension>
+</ns2:HouseUpdate>

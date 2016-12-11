@@ -1,0 +1,4 @@
+---
+applications:
+- name: charter-producer-app
+  path: target/charter-producer-app-0.0.1-SNAPSHOT.jar
